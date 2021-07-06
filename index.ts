@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.send('about');
+  res.send('<h3>about</h3>');
 });
 
 const port = 3000;
