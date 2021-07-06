@@ -6,7 +6,6 @@ app.get('/', (req, res) => {
   res.redirect('/home');
 });
 
-
 app.get('/about', (req, res) => {
   res.send('<h3>about</h3>');
 });
